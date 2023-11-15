@@ -1,0 +1,60 @@
+:root {
+
+/* Colors: */
+--unnamed-color-ffffff: #FFFFFF;
+--unnamed-color-c30000: #C30000;
+--unnamed-color-4d4c4c: #4D4C4C;
+
+/* Font/text values */
+--unnamed-font-family-franklin-gothic: Franklin Gothic;
+--unnamed-font-style-normal: normal;
+--unnamed-font-weight-normal: normal;
+--unnamed-font-weight-medium: medium;
+--unnamed-font-size-28: 28px;
+--unnamed-font-size-38: 38px;
+--unnamed-font-size-98: 98px;
+--unnamed-character-spacing-0: 0px;
+--unnamed-line-spacing-34: 34px;
+--unnamed-line-spacing-43: 43px;
+--unnamed-line-spacing-111: 111px;
+--unnamed-text-transform-uppercase: uppercase;
+}
+
+/* Character Styles */
+.text_buttons-franklin-gothic-–-28pt {
+font-family: var(--unnamed-font-family-franklin-gothic);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-28);
+line-height: var(--unnamed-line-spacing-34);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-c30000);
+}
+.-p-franklin-gothic-–-28pt {
+font-family: var(--unnamed-font-family-franklin-gothic);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-medium);
+font-size: var(--unnamed-font-size-28);
+line-height: var(--unnamed-line-spacing-34);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-4d4c4c);
+}
+.h2-franklin-gothic-–-38pt {
+font-family: var(--unnamed-font-family-franklin-gothic);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-38);
+line-height: var(--unnamed-line-spacing-43);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-c30000);
+}
+.h1-franklin-gothic-–-98pt {
+font-family: var(--unnamed-font-family-franklin-gothic);
+font-style: var(--unnamed-font-style-normal);
+font-weight: var(--unnamed-font-weight-normal);
+font-size: var(--unnamed-font-size-98);
+line-height: var(--unnamed-line-spacing-111);
+letter-spacing: var(--unnamed-character-spacing-0);
+color: var(--unnamed-color-ffffff);
+text-transform: var(--unnamed-text-transform-uppercase);
+}
