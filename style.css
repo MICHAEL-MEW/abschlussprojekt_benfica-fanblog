@@ -1,0 +1,582 @@
+
+/* *************ALLGEMEINE STYLES*********** */
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    font-weight: 800;
+    color: white;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+body.startseite {
+    background-image:url(./bilder/startseite/Fans_rot.png) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+body.aktuellerkader {
+    background-image:url(./bilder/aktuellerkader/AKTUELLERKADER/AKTUELLERKADER/equipa_black.png) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+body.stars {
+    background-image:url(./bilder/Stars/antikes-teamfoto_gelb.png) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+body.erfolge {
+    background-image:url(./bilder/erfolge/d0c26ee1280491e88835b64a0a232f4ca0dfb923.jpg) ;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    position: relative;
+}
+
+/* ***************************************** */
+
+
+/* _HEADER_____________________________________________________ */
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    color: white;
+    background: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding:0 100px;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    list-style: none;
+    gap: 21px;
+    align-items: center;
+}
+
+    /* HOME-BUTTON */
+#homebtn a {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    height: 31px;
+    width: 70px;
+    padding: 0;
+    color: white;
+} 
+
+#homebtn a div{
+    background-color: white;
+    height: 31px;
+    width: 5px;
+}
+
+#homebtn a:hover {
+    background-color: white;
+    color: #C30000;
+}
+
+    /* AKTUELLER_KADER-BUTTON */
+    #akbtn a{
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        height: 31px;
+        width: 175px;
+        padding: 0;
+        color: white;
+    } 
+    
+    #akbtn a div{
+        background-color: #0060AF;
+        height: 31px;
+        width: 5px;
+        color: #0060AF;
+    }
+    
+    #akbtn:hover {
+        background-color: #0060AF;
+    }
+
+    /* AKTUELLER STARS-BUTTON */
+    #strsbtn a{
+        display: flex;
+        gap: 4px;
+        align-items: center;
+        height: 31px;
+        width: 70px;
+        padding: 0;
+        color: white;
+    } 
+    
+    #strsbtn a div{
+        background-color: #FFC900;
+        height: 31px;
+        width: 5px;
+        color: #FFC900;
+    }
+    
+    #strsbtn:hover {
+        background-color: #FFC900;
+    }
+
+ /* AKTUELLER ERFOLGE-BUTTON */
+ #erfbtn a{
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    height: 31px;
+    width: 95px;
+    padding: 0;
+    color: white;
+
+} 
+
+#erfbtn a div{
+    background-color: #006E35;
+    height: 31px;
+    width: 5px;
+    color: #006E35;
+}
+
+#erfbtn:hover {
+    background-color: #006E35;
+}
+
+/* _HEADER ENDE___________________________________ */
+
+/* _FOOTER________________________________________ */
+footer {
+    border-top: 5px solid #C30000;
+    background-image: url(./bilder/Footer/Footer_bk.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 20px 100px;
+    color: white;
+}
+
+footer .newsletteraußen {
+    border: 4px solid white;
+    width: 550px;
+    padding: 10px;
+}
+
+footer .newsletter {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 300px;
+}
+
+footer input {
+    font-size: 20px;
+    padding: 4px;
+    width: 300px;
+}
+
+footer .footer_btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    margin: 5px 0;
+}
+
+footer .footer_btn:hover {
+    background-color: #C30000;
+    color: white;
+}
+
+footer .fakelink {
+    color: white;
+    text-decoration: dashed;
+}
+
+footer .fakelink:hover {
+    border-bottom: 2px solid white;
+}
+
+footer .quellen {
+    color: white;
+    text-decoration: none;
+}
+
+footer.quellen:hover {
+    border-bottom: 2px solid white ;
+}
+
+/* _FOOTER ENDER__________________________________ */
+
+/* _HERO__________________________________________ */
+.hero {
+    background-color: none;
+    padding: 55px 100px;
+}
+
+.hero h1 {
+    margin-top: 300px;
+}
+/* _HERO ENDE_____________________________________ */
+
+/* _TEXT-BLOCK____________________________________ */
+.txtblk_zweispaltig {
+    background-color: white;
+    padding: 25px 100px;
+    color: #C30000;
+
+}
+
+.txtblk_zweispaltig h2 {
+    margin-bottom: 10px;
+}
+
+.zweispalten {
+    color: #4D4C4C;
+    justify-content: space-between;
+    display: flex;
+    gap: 80px;
+    align-items: flex-start;
+    margin-bottom: 55px;
+    width: 100%;
+}
+/* _TEXT-BLOCK ENDE_______________________________ */
+
+/* _UNTERSEITEN-BLOCK_____________________________ */
+.unterseiten {
+    background-image: url(./bilder/startseite/Adler_rot.png);
+    object-fit: cover;
+    padding: 40px 100px;
+    color: white;
+}
+
+.unterseiten h2 {
+    margin-bottom: 10px;
+}
+
+.sectionblk {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    align-items: center;
+}
+
+.bild_titel_bttn {
+    padding: 20px 0;
+}
+
+.sectionblk section img {
+    width: 200px;    
+    height: 200px;
+    object-fit: cover;
+    box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.94);
+}
+
+.bild_titel_bttn h3 {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.bild_titel_bttn a.button {
+    margin: 20px 0;
+    margin-bottom: 55px;
+    width: 200px;
+    padding: 15px;
+    border: 4px solid white;
+    color: white;
+    font-weight: 400;
+    box-shadow: 10px 10px 0px 0px rgba(255,255,255,0.94);
+}
+
+.bild_titel_bttn a.button:hover {
+color: #C30000;
+border: 4px solid #C30000;
+background-color: white;
+font-weight: 800;
+}
+
+/* =============== AKTUELLER KADER ====================== */
+
+/* Hintergrundbilder der einzelnen Positionen */
+.hintergrund_tw{
+    background-image: url(./bilder/aktuellerkader/AKTUELLERKADER/AKTUELLERKADER/TW_R.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.hintergrund_aw{
+    background-image: url(./bilder/aktuellerkader/AKTUELLERKADER/AKTUELLERKADER/AW_R.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.hintergrund_mf{
+    background-image: url(./bilder/aktuellerkader/AKTUELLERKADER/AKTUELLERKADER/MF_R.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.hintergrund_st{
+    background-image: url(./bilder/aktuellerkader/AKTUELLERKADER/AKTUELLERKADER/ST_R.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+/* Spieler-Karten */
+.filler {
+    height: 200px;
+}
+.positionrot {
+
+    margin: 90px 100px;
+    background-color: none; 
+    color: white;
+}
+
+.positionrot h2{
+    border-bottom: 4px solid white;
+}
+
+.kartenreihe {
+    display: flex;
+    justify-content: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.spielerkarte {
+    margin: 20px o;
+    padding: 10px;
+    border: 4px solid white;
+}
+
+.spielerkarte img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.spielerkarte h3{
+    color: white;
+    min-width: 35px;
+    max-width: 80px;
+    font-size: 30px;
+}
+
+.spielerkarte p {
+    margin: 0;
+    font-size: 20px;
+    font-size: 28px;
+    color: white;
+    /* background-color: white; */
+    padding: 0 4px;
+}
+
+.nummerundauszeichnungen {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.auszeichnungen {
+    width: 100px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+}
+
+.auszeichnungen img{
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin-top: 30px;
+}
+
+
+/* ============== STARS ================== */
+
+
+.starspg {
+    background: url(./bilder/Stars/Hintergrund_weiß.png)
+}
+
+.titelstars {
+    margin: 0 100px;
+    padding-top: 50px;
+    border-bottom: 4px solid black;
+}
+
+.titelstars>img {
+    width: 250px;
+}
+
+.listestars {
+    margin: 30px 100px 0px 100px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.listestars a {
+    color: black;
+}
+
+.listestars a div:hover {
+    background-color: #FFC900;
+    color: black;
+
+}
+
+.listestars a #eusebio:hover {
+    background-color: black;
+    color: white;
+}
+
+.listestars a #eusebio div:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/* einzelne Spieler */
+.star {
+    border: 4px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    align-items: center;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.star img{
+    width: 122px;
+    height: 122px;
+    object-fit: cover;
+}
+
+.star h3 {
+    font-weight: 800;
+    margin: 10px 0;
+    padding: 10px 0;
+    line-height: 0;
+}
+
+.star p {
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    line-height: 10px;
+}
+
+/* =============ERFOLGE================= */
+
+
+.listeweißerhintgrd {
+    background-color: white;
+    padding: 40px 100px;
+    color: #C30000;
+    text-align: center;
+}
+
+.listeweißerhintgrd img {
+    height: 100px;
+}
+
+.listeweißerhintgrd .liste {
+    padding: 5px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.listeroterhintgrd {
+    background-color: #C30000;
+    padding: 40px 100px;
+    color: white;
+    text-align: center;
+}
+
+.listeroterhintgrd img {
+    height: 100px;
+}
+
+.listeroterhintgrd .liste {
+    padding: 5px;
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
